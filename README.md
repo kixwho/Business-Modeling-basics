@@ -2,6 +2,8 @@
 
 Given the latitude and longitude of selected cities, create a table that gives the distance between any two of the listed cities.
 
+## Intuition
+
 Essentially this problem is about taking **every possible pair** of cities, then performing some **calculation on each pair**.
 
 ## Excel Solution
