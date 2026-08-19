@@ -4,7 +4,12 @@ Given the latitude and longitude of selected cities, create a table that gives t
 
 ## Intuition
 
-The key idea is simple: take **every possible pair** of cities, then perform the same calculation on each pair.
+The key idea is simple: take **every possible pair** of cities, then perform the same calculation on each pair. This familiar Excel lookup problem is also perfect for a Python nested loop.
+
+<p>
+
+Solution (partial view):
+<img width="976" height="243" alt="image" src="https://github.com/user-attachments/assets/9d1b9179-0fc1-4931-b190-1bfa9d0a3be4" />
 
 ## Python Solution
 
