@@ -24,3 +24,6 @@ Solution (partial view):
 1. With raw data highlighted in green, I first created a grid of all the cities. The horizontal row was created using Transpose Paste
 2. In cell H4, I used the formula <img width="909" height="28" alt="image" src="https://github.com/user-attachments/assets/94b2d979-f67d-420e-9e46-6e5b24921e5b" />
 3. Copied the formula across the entire table (highlighted in blue)
+
+## Practical Extension
+
