@@ -4,14 +4,27 @@ Given the latitude and longitude of selected cities, create a table that gives t
 
 ## Intuition
 
-The key idea is simple: take **every possible pair** of cities, then perform the same calculation on each pair. This familiar Excel lookup problem is also perfect for a Python nested loop.
+The key idea is simple: take every possible pair of cities, then perform the same calculation on each pair. This familiar Excel lookup problem is also perfect for a Python nested loop. Solution (partial view):
 
 <p>
 
-Solution (partial view):
-<img width="976" height="243" alt="image" src="https://github.com/user-attachments/assets/9d1b9179-0fc1-4931-b190-1bfa9d0a3be4" />
+<img width="781" height="194" alt="image" src="https://github.com/user-attachments/assets/9d1b9179-0fc1-4931-b190-1bfa9d0a3be4" />
 
-## Python Solution
+## Sensitivity Analysis
+
+The same Python logic is used to model how profit changes with price and cost. Instead of a list of cities, we would construct the table using a range of prices we could charge customers, and a range of costs to produce each unit of the product.
+
+<img width="497" height="366" alt="image" src="https://github.com/user-attachments/assets/fbde63d8-5b8c-439c-9b79-5dc81282ebb7" />
+
+<p>
+
+**As the unit cost increases, the profit-maximizing price increases as some of the cost increase is passed on to customers.**
+
+<br>
+
+## Appendix
+
+### Python Solution
 
 1. Import and clean up the data table
 2. Create an empty grid of the cities using the pandas DataFrame constructor
@@ -19,11 +32,8 @@ Solution (partial view):
 
 **Main advantage: Automation**. Instead of manually building and filling the grid, the entire process is handled by a few lines of readable code.
 
-## Excel Solution
+### Excel Solution
 
 1. With raw data highlighted in green, I first created a grid of all the cities. The horizontal row was created using Transpose Paste
 2. In cell H4, I used the formula <img width="909" height="28" alt="image" src="https://github.com/user-attachments/assets/94b2d979-f67d-420e-9e46-6e5b24921e5b" />
 3. Copied the formula across the entire table (highlighted in blue)
-
-## Practical Extension
-
