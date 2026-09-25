@@ -6,7 +6,7 @@ Given a range of prices we could charge customers, and a range of costs to produ
 
 Construct a two-way sensitivity table using a Python nested loop. [Python solution.](https://github.com/kixwho/Business-Modeling-basics/blob/main/Sensitivity%20analysis.ipynb)  In Excel, the same analysis is done using a what-if analysis.
 
-<img width="497" height="366" alt="image" src="https://github.com/user-attachments/assets/fbde63d8-5b8c-439c-9b79-5dc81282ebb7" />
+<img width="574" height="369" alt="image" src="https://github.com/user-attachments/assets/947db0fb-b1e1-4477-8977-19e96f6c216c" />
 
 <p>
 
